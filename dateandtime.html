@@ -1,0 +1,12 @@
+<script>
+    var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    let month=["jan","feb","mar","apr","may","June"];
+    let rht=new Date("June 30, 2035");
+    let cur=new Date();
+    rht.setFullYear("2028")
+    let fut=rht.getTime();
+    let lat=cur.getTime();
+    console.log((fut-lat)/(1000*60*60*24*7*12));
+    // console.log(`${dayNames[rht.getDay()]}/${month[rht.getMonth()]}/${rht.getFullYear()}`);
+    // console.log(dayNames[rht.getDay()]);
+</script>

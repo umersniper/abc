@@ -1,0 +1,33 @@
+<script>
+//  for(let i=1;i<10;i++)
+//  {
+//     if(i==5)
+//     {
+//         break;
+//     }
+//     console.log(i);
+//  }
+ let cities=["hyderabad","karachi","lahore","multan","sialkot"];
+    let findCity=prompt("Enter City Name ");//quetta
+    let isCity=false;//flag
+    // alert()
+    for(let i=0;i<cities.length;i++)
+    {//     qeutta sialkot
+        //  quetta         cities[0]
+        if(findCity.toLowerCase()==cities[i].toLowerCase())
+        {
+            isCity=true;
+            break;
+        }
+
+    }
+    // true
+    if(isCity)
+    {
+        console.log("Avaliable");
+    }
+    else
+    {
+        console.log("Not Avaliable");
+    }
+</script>
